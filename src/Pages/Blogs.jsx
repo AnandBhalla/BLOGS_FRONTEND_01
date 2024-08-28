@@ -24,7 +24,7 @@ const Blogs = () => {
             {blogs && blogs.map((item, i) => (
                 <div>
                     <Link to={`/blogsPage/${item._id}`}><h1>{item.title}</h1></Link>
-                    <p>{item.description.slice(0,500)}...</p>
+                    <p>{item.description.slice(0,100)}...</p>
                 </div>
             ))}
         </div>
