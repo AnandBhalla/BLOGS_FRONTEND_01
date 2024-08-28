@@ -1,0 +1,67 @@
+.blog-page {
+    width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(128, 128, 128, 0.489);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.icon{
+    text-align: left;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+}
+.icon button{
+    border: none;
+    background-color: transparent;
+}
+.icon button:hover{
+    color: #ff8800;
+}
+.icon Link:hover{
+    color: #ff8800;
+}
+
+.blog-page div {
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog-page div:hover {
+    transform: translateY(-5px);
+}
+
+.blog-page h1 {
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.blog-page h1:hover {
+    color: #007bff;
+}
+
+.blog-page p {
+    font-size: 1.5rem;
+    color: #555555;
+    line-height: 1.5;
+    margin: 0;
+}
+
+.blog-page .loading {
+    font-size: 18px;
+    color: #999;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
